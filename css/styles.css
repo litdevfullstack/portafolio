@@ -46,6 +46,7 @@ body.dark {
     background-color: var(--bg-card-color);
     transition: var(--transition);
     width: 100vw;
+    margin: 0;
 }
 
 .switches {
