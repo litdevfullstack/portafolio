@@ -28,6 +28,7 @@ body {
     color: var(--text-color);
     transition: var(--transition);
     font-family: sans-serif;
+    width: 100vw;
 }
 
 body.dark {
@@ -44,6 +45,7 @@ body.dark {
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
     transition: var(--transition);
+    width: 100%;
 }
 
 .switches {
@@ -121,6 +123,7 @@ body.dark {
     display: grid;
     padding: 2em;
     gap: 0.5em;
+    justify-content: center;
 }
 
 @media screen and (min-width:720px) {
